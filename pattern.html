@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./clothingstores.html" autocomplete="off">
+        <label for="name">User Name</label>
+        <input type="text" id="name" name="Name" pattern="[A-Za-z\]+@+[0-9]"title="Enter A-Za-z@0-9 letters" placeholder="Username"required><br><br>
+        <label for="gmail">GMail</label>
+        <input type="gmail" id="gmail" name="mail" pattern="[a-z\d]+@gmail.com" title="Enter gmail" placeholder="ufjhkgft75@gmail.com"required><br><br>
+        <label for="phone number">Phone Number</label>
+        <input type="numeric" id="phone number" name="Pn" pattern="[+][9][1][6-9][0-9]{9}" title="Enter phone number" placeholder="+919866XXXXXX"required><br><br>
+        <label for="password">Password : </label>
+        <input type="password" id="password" name="Password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@!#$%^&*]).{8,16}" placeholder="Enter Password"required><br><br>
+        <label for="date">Date</label>
+        <input type="text" id="date" name="Date" pattern="\d{4}-(0[1-9]|1[0-2])-(0[1-9]|1[0-9]|2[0-9]|3[0-1])" placeholder="yyyy-mm-dd"required><br><br>
+        <button>submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  /* Drak gray color */
+  background: #333; 
+  /*text white in nav bar  */
+  color: #fff; 
+  /* Adds space inside the nav (top/bottom/left/right). 1rem ≈ 16px. */
+  padding: 1rem;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+/* Targets <a> tags inside the navbar. */
+  color: white;
+/* Removes the underline from links. */
+  text-decoration: none;
+}
+
+section {
+/*  Adds inner space around content. */
+  padding: 2rem;
+  max-width: 800px;
+  /* Centers the section horizontally. */
+  margin: auto;
+}
+
+#home {
+  background-color:rgb(214, 193, 208);
+  text-align: center;
+  padding: 4rem 2rem;
+  h1{
+    color: rgba(0, 0, 255, 0.5);
+  }
+  h4{
+    color :#be2323;
+  }
+}
+
+.project {
+  background: #916d6d;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #473737;
+}
+
+LinkedIn-icon{
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s;
+}
+LinkedIn-icon:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
