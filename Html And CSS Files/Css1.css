@@ -1,0 +1,21 @@
+.container{
+    width: 600px;
+    height: 400px;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: red; */
+    /* border-top-width : 2px;
+    border-left-width : 3px;
+    border-bottom-width: 4px;
+    border-right-width: 5px; */
+    border-top-style: solid;
+    /* border-style: dashed;
+    border-color: deeppink; */
+    border: 2px solid green;
+    margin-left: 10 0px;
+}
+p{
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
